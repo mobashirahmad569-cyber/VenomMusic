@@ -170,7 +170,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 #
 SET_CMDS = getenv("SET_CMDS", "True")
 
-raw_sessions = getenv("STRING_SESSIONS", "")
+raw_sessions = getenv("STRING_SESSIONS", "AQGOiY8ABLNzMnzEF2DbftCD8hFZK6NVs_FRZMffGYGjOjSBAAdfXN6h5OHr12paqfTgaOuqn-ZhdhfypMtmL3Sqj5gTefcPAwRdvJtpXsMV0FKjnePPnK4_ujeugKW-4F84E6Lf032a-VAfD9zGiIjJWA5AV0kBR3I_8k7Oxum2WKaMvcCEDda8i4XnnpQfg4tlHBPRSQXLFpkj_k9x_Sd9zAjUBvMenPCb1YPwqWqHNeQW0g_K6Iop_MhaQjj-EDdy2r9Z9buBsF9IGDrLrldWUgiEvVzBsDIq3ddwxN1sEfvUNKftygwBSCDyOKPSv3I43nq6vzTirrTPriwPs9VtIdE8pAAAAAFlM3vjAA")
 
 # Split the sessions only if raw_sessions is not empty
 STRING_SESSIONS = list(map(str.strip, raw_sessions.split(","))) if raw_sessions else []
