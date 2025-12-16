@@ -12,17 +12,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "26118543"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "a66f3d59bf3379800b8efaefc0f2308b")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7952622129:AAGvjwvj_9DQbgdzneEqnCjJTNaUv86tvUw")
 
 
 # Database to save your chats and stats... 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Arman121:Arman121@arman.ji8gqxd.mongodb.net/?retryWrites=true&w=majority")
 
 
 CLEANMODE_DELETE_MINS = int(
